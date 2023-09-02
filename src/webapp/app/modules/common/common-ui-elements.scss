@@ -1,0 +1,84 @@
+.paper {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 2px;
+}
+
+.headline {
+  opacity: 0.77;
+}
+
+.subheading {
+  opacity: 0.43;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+table {
+  width: 100%;
+  padding-top: 5px;
+
+  th {
+    font-weight: bold;
+    text-align: start;
+    border-bottom: 2px solid black;
+  }
+
+  td {
+    padding: 5px 0;
+  }
+
+  td.actions {
+    text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ebebeb;
+  }
+
+  tbody > tr:hover {
+    background-color: darken(#ebebeb, 10%);
+  }
+}
+
+.breadcrumb {
+  a {
+    color: grey;
+    font-size: 14px;
+  }
+}
+
+.information-highlighter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-message {
+    font-size: 14px;
+    opacity: 0.67
+  }
+
+  &-value {
+    font-size: 40px;
+    opacity: 0.87;
+    font-weight: bold;
+  }
+}
+
+.horizontal-container {
+  display: flex;
+  gap: 60px;
+  justify-content: space-around;
+}
+
+.page-content {
+  max-height: 1000px;
+  overflow: auto;
+}

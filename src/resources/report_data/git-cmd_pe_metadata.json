@@ -1,0 +1,112 @@
+[
+    {
+        "DLLName": "KERNEL32.dll",
+        "Functions": [
+            "CloseHandle",
+            "CreateFileW",
+            "CreateProcessW",
+            "DeleteCriticalSection",
+            "EnterCriticalSection",
+            "ExitProcess",
+            "FormatMessageW",
+            "GetCommandLineW",
+            "GetEnvironmentVariableA",
+            "GetEnvironmentVariableW",
+            "GetExitCodeProcess",
+            "GetFileAttributesW",
+            "GetFinalPathNameByHandleW",
+            "GetLastError",
+            "GetModuleFileNameW",
+            "GetProcAddress",
+            "GetStartupInfoW",
+            "GetStdHandle",
+            "InitializeCriticalSection",
+            "LeaveCriticalSection",
+            "LoadLibraryW",
+            "LocalFree",
+            "SetConsoleCtrlHandler",
+            "SetEnvironmentVariableA",
+            "SetEnvironmentVariableW",
+            "SetUnhandledExceptionFilter",
+            "Sleep",
+            "TlsGetValue",
+            "VirtualProtect",
+            "VirtualQuery",
+            "WaitForSingleObject"
+        ]
+    },
+    {
+        "DLLName": "SHELL32.dll",
+        "Functions": [
+            "CommandLineToArgvW"
+        ]
+    },
+    {
+        "DLLName": "SHLWAPI.dll",
+        "Functions": [
+            "PathRemoveFileSpecW"
+        ]
+    },
+    {
+        "DLLName": "USER32.dll",
+        "Functions": [
+            "LoadStringW"
+        ]
+    },
+    {
+        "DLLName": "msvcrt.dll",
+        "Functions": [
+            "__C_specific_handler",
+            "__iob_func",
+            "__lconv_init",
+            "__set_app_type",
+            "__setusermatherr",
+            "__wgetmainargs",
+            "__winitenv",
+            "_amsg_exit",
+            "_cexit",
+            "_commode",
+            "_fmode",
+            "_initterm",
+            "_onexit",
+            "_vsnwprintf",
+            "_waccess",
+            "_wcmdln",
+            "_wcsdup",
+            "_wcsicmp",
+            "_wcsnicmp",
+            "_wfopen",
+            "abort",
+            "calloc",
+            "exit",
+            "fclose",
+            "fgets",
+            "fprintf",
+            "free",
+            "fwprintf",
+            "fwrite",
+            "isalpha",
+            "isspace",
+            "malloc",
+            "memcpy",
+            "memmove",
+            "realloc",
+            "signal",
+            "strcpy",
+            "strlen",
+            "strncmp",
+            "swprintf",
+            "vfprintf",
+            "wcscat",
+            "wcschr",
+            "wcscmp",
+            "wcscpy",
+            "wcslen",
+            "wcsncat",
+            "wcsncmp",
+            "wcsncpy",
+            "wcsspn",
+            "wcsstr"
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportDetailsList should render correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="report-details"
+    >
+      <li
+        class="dll-name"
+      >
+        test.dll
+         
+        <span>
+          (
+          occurrences in other reports
+          : 
+          3
+          )
+        </span>
+        <ul>
+          <li
+            class="function-name"
+          >
+            function1
+          </li>
+          <li
+            class="function-name"
+          >
+            function2
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

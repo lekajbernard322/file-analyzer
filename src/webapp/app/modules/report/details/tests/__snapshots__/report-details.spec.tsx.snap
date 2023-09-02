@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportDetail should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="breadcrumb"
+    >
+      <a
+        href="/"
+      >
+        Reports
+        /
+      </a>
+      <a
+        href="/"
+      >
+        Details
+        /
+      </a>
+    </div>
+    <h1
+      class="headline"
+    >
+      report1
+    </h1>
+    <h3
+      class="subheading"
+    >
+      Details of PE metadata showing the list of used DLLs and their functions
+    </h3>
+    <div>
+      <hr />
+    </div>
+    <div
+      class="horizontal-container"
+    >
+      <div
+        class="information-highlighter"
+      >
+        <div
+          class="information-highlighter-message"
+        >
+          Number of DLLs, which is lower than the average [4]
+        </div>
+        <div
+          class="information-highlighter-value"
+        >
+          1
+        </div>
+      </div>
+      <div
+        class="information-highlighter"
+      >
+        <div
+          class="information-highlighter-message"
+        >
+          Number of functions, which is higher than the average [1]
+        </div>
+        <div
+          class="information-highlighter-value"
+        >
+          2
+        </div>
+      </div>
+    </div>
+    <div>
+      <hr />
+    </div>
+    <input
+      placeholder="Search"
+      value=""
+    />
+    <div
+      class="page-content"
+    >
+      <div>
+        <ul
+          class="report-details"
+        >
+          <li
+            class="dll-name"
+          >
+            test.dll
+             
+            <span>
+              (
+              occurrences in other reports
+              : 
+              3
+              )
+            </span>
+            <ul>
+              <li
+                class="function-name"
+              >
+                function1
+              </li>
+              <li
+                class="function-name"
+              >
+                function2
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

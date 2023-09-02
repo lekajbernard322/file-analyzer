@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+  background-color: #ebebeb;
+
+  font-family: roboto, serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 700px;
+
+  .paper {
+    width: 60%;
+    max-width: 1200px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-routes {
+    flex-grow: 2;
+  }
+}

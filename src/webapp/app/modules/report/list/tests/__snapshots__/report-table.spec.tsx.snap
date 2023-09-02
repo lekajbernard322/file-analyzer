@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportTable should render correctly with data 1`] = `
+<div>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>
+            Created
+          </th>
+          <th>
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            report1
+          </td>
+          <td>
+            some date
+          </td>
+          <td
+            class="actions"
+          >
+            <a
+              href="/details/1"
+            >
+              View
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            report1
+          </td>
+          <td>
+            some date
+          </td>
+          <td
+            class="actions"
+          >
+            <a
+              href="/details/2"
+            >
+              View
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button>
+      Load more
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ReportTable should render no data message when no reports are available 1`] = `
+<div>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>
+            Created
+          </th>
+          <th>
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            colspan="3"
+          >
+            No reports found
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button>
+      Load more
+    </button>
+  </div>
+</div>
+`;
